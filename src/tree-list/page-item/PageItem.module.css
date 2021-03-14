@@ -1,0 +1,31 @@
+.page {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-areas:
+    "arrow title"
+    ". child-pages";
+    align-items: center;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.title {
+    grid-area: title;
+}
+
+.child {
+    grid-area: child-pages;
+}
+
+.arrow {
+    margin-right: 4px;
+    transition: transform .5s;
+    grid-area: arrow;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
