@@ -26,6 +26,6 @@ export interface MenuDto {
 export async function loadMenu(): Promise<MenuDto> {
     // Добавим небольшую задержку, чтобы увидеть лоадер
     return new Promise<void>(resolve => setTimeout(() => resolve(), 1000))
-        .then(() => fetch('/menu.data.json'))
+        .then(() => fetch('menu.data.json'))
         .then(res => res.json());
 }
