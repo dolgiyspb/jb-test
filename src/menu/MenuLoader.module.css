@@ -1,0 +1,19 @@
+.skeleton {
+    height: 1em;
+    margin-bottom: var(--item-space);
+    animation: vibe ease-in-out infinite 1s alternate;
+    background-color: #EBEBEB;
+}
+
+.subBlock {
+    margin-left: var(--item-space);
+}
+
+@keyframes vibe {
+    0% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

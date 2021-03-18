@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import TreeList from "./tree-list/TreeList";
+import Menu from './menu/Menu';
 
 function App() {
   return (
-      <TreeList></TreeList>
+      <Menu onSelect={() => {}} />
   );
 }
 

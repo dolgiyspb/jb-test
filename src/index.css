@@ -3,3 +3,10 @@
 ul {
   margin: 0;
 }
+
+body {
+  --animation-duration: .5s;
+  --bold-font-weight: 700;
+  --selected-item-background: #F0F0F0;
+  --item-space: 12px;
+}
